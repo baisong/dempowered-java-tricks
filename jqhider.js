@@ -9,8 +9,8 @@
  
         //hides all dates on Works page in ". YYYY." format
  
-        if ($(.node-teaser).length == 0){
-             ($(.node-teaser).replace(/. 2005.|. 2006.|. 2007.|. 2008.|. 2009.|. 2010.|. 2011.|. 2012.|/gi, ""));
+        if ($('.node-teaser').length == 0){
+             ($('.node-teaser').replace(/. 2005.|. 2006.|. 2007.|. 2008.|. 2009.|. 2010.|. 2011.|. 2012.|/gi, ""));
         }
  
  
