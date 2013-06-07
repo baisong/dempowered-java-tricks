@@ -6,6 +6,11 @@
 (function ($) {
   Drupal.behaviors.rosa = {
     attach: function (context) {
+
+      /**
+       * Thing 1: Removes years from Publication teasers.
+       */
+
       // declare the variable for the biblio teasers
       var sel = '.node-biblio.node-teaser';
       // verifies biblio teasers to edit
@@ -20,7 +25,25 @@
           }).remove();
         });  
       }
+
+      /**
+       * Thing 2: Reformats news date fields like "MM/DD/YYYY".
+       */
       
+      sel = "";
+      if ($(sel).length) {
+        // Does something...
+      }
+      
+      /**
+       * Thing 3: Italicizes all play titles wherever they appear.
+       */
+      
+      sel = "";
+      if ($(sel).length) {
+        // Does something...
+      }
+
      }
    };
  })(jQuery);
